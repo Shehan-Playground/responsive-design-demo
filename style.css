@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+
+/* Media queries Level 5 implementation*/
+
+@media all and (prefers-color-scheme: dark) {
+    :root {
+        background-color: #35363A;
+        color: white;
+    }
+}
